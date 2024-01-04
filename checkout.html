@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Checkout</h1>
+    <form id="forminfo" class="form" method="get">
+        <div class="info">
+            <h5>* Indicates a required field</h5>
+        </div>
+        <div class="info">
+            <h3>Customer Details</h3>
+        </div>        
+        <div class="info">
+            <label for="name">* Name : </label>
+            <input id="name" type="text" />
+        </div>
+        <div class="info">
+            <label for="email">* Email : </label>
+            <input id="email" placeholder="customer@example.com" type="text" />
+        </div>
+        <div class="info">
+            <label for="phone">* Phone : </label>
+            <input id="phone" placeholder="xxx-xxx-xxxx" type="text" />
+        </div>
+        <div class="info">
+            <label for="address">* Address : </label>
+            <input id="address" type="text" />
+        </div>
+        <div class="info">
+            <label for="city">* City : </label>
+            <input id="city" type="text" />
+        </div>
+        <div class="info">
+            <label for="postcode">* Post Code : </label>
+            <input id="postcode" type="text" />
+        </div>
+        <div class="info">
+            <label for="province">* Province : </label>
+            <select name="province" id="province">
+                <option value="alberta">Alberta</option>
+                <option value="manitoba">Manitoba</option>
+                <option value="ontario">Ontario</option>
+                <option value="quebec">Quebec</option>
+            </select>
+        </div>
+        <div class="info">
+            <h3>Order Details</h3>
+        </div>
+        <div class="info">
+            <label for="prod1">Special Shawarma ($6.00) : </label>
+            <input id="prod1" placeholder="enter qty" type="text" />
+        </div>
+        <div class="info">
+            <label for="prod2">Ice Lemonade ($2.00) : </label>
+            <input id="prod2" placeholder="enter qty" type="text" />
+        </div>
+        <div class="info">
+            <label for="prod3">Arabian Dessert ($3.00) : </label>
+            <input id="prod3" placeholder="enter qty" type="text" />
+        </div>
+        <div class="info">  
+            <h3>Payment Details</h3>
+        </div>
+        <div class="info">
+            <label for="credit">Credit Card Number* : </label>
+            <input id="credit" placeholder="xxxx-xxxx-xxxx-xxxx" type="text" />
+        </div>
+        <div class="info">
+            <label for="credit_month">Credit Card Expiry Month* : </label>
+            <input id="credit_month" placeholder="MMM" type="text" />
+        </div>
+        <div class="info">
+            <label for="credit_year">Credit Card Expiry Year* : </label>
+            <input id="credit_year" placeholder="yyyy" type="text" />
+        </div>
+        
+        <button id="submit" type="submit">Place Order</button>
+        <label id="errormsg" style="color:crimson"></label>
+    </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

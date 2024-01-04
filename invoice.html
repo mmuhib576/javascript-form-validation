@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Invoice</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body onload="fillData()">
+
+<div class="container">
+    <h1>Invoice</h1>
+    <div class="invoice">
+
+        <div class="invoice-row">
+            <label>Name</label>
+            <label >:</label>
+            <label id="name" class="label-right"></label>
+        </div>
+
+        <div class="invoice-row">
+            <label>Email</label>
+            <label >:</label>
+            <label id="email" class="label-right"></label>
+        </div>
+
+        <div class="invoice-row">
+            <label>Phone</label>
+            <label >:</label>
+            <label id="phone" class="label-right"></label>
+        </div>
+
+        <div class="invoice-row">
+            <label>Delivery Address</label>
+            <label >:</label>
+            <label id="address" class="label-right"></label>
+        </div>
+
+        <div class="invoice-row">
+            <label id="p1"> x Special Shawarma</label>
+            <label >:</label>
+            <label id="p1total" class="label-right"></label>
+        </div>
+
+        <div class="invoice-row">
+            <label id="p2"> x Ice Lemonade</label>
+            <label >:</label>
+            <label id="p2total" class="label-right"></label>
+        </div>
+
+        <div class="invoice-row">
+            <label id="p3"> x Arabian Dessert</label>
+            <label >:</label>
+            <label id="p3total" class="label-right"></label>
+        </div>
+
+        <div class="invoice-row">
+            <label>Sub Total</label>
+            <label >:</label>
+            <label id="subtotal" class="label-right"></label>
+        </div>
+
+        <div class="invoice-row">
+            <label>Taxes</label>
+            <label >:</label>
+            <label id="taxes" class="label-right"></label>
+        </div>
+
+        <div class="invoice-row">
+            <label>Total</label>
+            <label >:</label>
+            <label id="total" class="label-right"></label>
+        </div>
+    </div>
+</div>
+</body>
+</html>

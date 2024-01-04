@@ -1,0 +1,134 @@
+
+*{
+box-sizing: border-box;
+}
+
+body{
+background-color: whitesmoke;
+justify-content: center;
+align-items: center;
+display: flex;
+min-height: 100;
+margin: 1;
+}
+
+.container{
+width: 650px;
+border-radius: 15px;
+background-color: white;
+box-shadow: 0px 2.5px 11px goldenrod;
+}
+
+.row{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+h1{
+text-align: center;
+margin: 1 1 15px;
+color: goldenrod;
+}
+
+h3{
+    text-align: center;
+    margin: 1 1 15px;
+    color: crimson;
+}
+
+.small-container{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.col{
+    flex-basis: 30%;
+    min-width: 25px;
+    margin-bottom: 30px;
+}
+
+.col img{
+    width: 100%;
+}
+
+.button{
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top:20px;
+    width: auto;
+    background-color: goldenrod;
+    }
+
+.form {
+padding: 25px 35px;
+}
+
+.info{
+display: grid;
+margin-bottom: 20px;
+grid-template-columns: 40% 60%;
+}
+
+.info h3{
+text-align: center;
+margin: 0 0 15px;
+color: cornflowerblue;
+}
+
+.info h5{
+margin: 0 0 15px;
+color: crimson;
+}
+
+.info input,select {
+width: 100%;
+padding: 10px;
+font-size: 14px;
+display: block;
+border-radius: 4px;
+border: 2px solid #f0f0f0;
+}
+
+.info input:focus {
+outline: 0;
+border-color: grey;
+}
+
+.info label{
+margin-top: 10px;
+}
+
+.form button{
+cursor: pointer;
+border-radius: 4px;
+color: white;
+display: block;
+font-size: 16px;
+padding: 10px;
+margin-top:20px;
+width: auto;
+background-color: goldenrod;
+border: 2p solid goldenrod;
+}
+
+.invoice{
+padding: 10px;
+}
+
+.invoice-row{
+display: grid;
+margin: 15px 0;
+grid-template-columns: 45% 10% 45%;
+}
+
+.label-right{
+text-align: right;
+margin-right: 20px;
+}
